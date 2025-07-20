@@ -43,10 +43,17 @@
 We recommend using Python ≥3.10.
 
 ```bash
-git clone ipiguard
+# git clone
+git clone https://github.com/Greysahy/ipiguard.git
 cd ipiguard
+
+# create conda environment
 conda create -n ipiguard python=3.10
-follow the AgentDojo installation
+conda activate ipiguard
+
+# install agentdojo
+cd agentdojo
+pip install -e .
 ```
 
 ---
