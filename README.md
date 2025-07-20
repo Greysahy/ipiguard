@@ -1,19 +1,26 @@
-
-<h1 align="center"> IPIGUARD: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents </h1>
-
-<p align="center">
-  <a href="https://greysahy.github.io/" target="_blank">Hengyu&nbsp;An</a><sup>1</sup> &ensp; &ensp;
-  <a href="https://jzhang538.github.io/jinghuaizhang/" target="_blank">Jinghuai&nbsp;Zhang</a><sup>2</sup> &ensp; &ensp;
-  <a href="https://tydusky.github.io/" target="_blank">Tianyu&nbsp;Du</a><sup>1</sup> &ensp; &ensp;
-  Chunyi&nbsp;Zhou<sup>1</sup> &ensp; <b>&middot;</b> &ensp;
-  Qingming&nbsp;Li<sup>1</sup> &ensp; <b>&middot;</b> &ensp;
-  <a href="https://tlin-taolin.github.io/" target="_blank">Tao&nbsp;Lin</a><sup>3</sup> &ensp; &ensp;
-  <a href="https://nesa.zju.edu.cn/index.html/" target="_blank">Shouling&nbsp;Ji</a><sup>1</sup> &ensp; &ensp;
-</p>
+<h2 align="center">
+  <strong>IPIGuard</strong>: A Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents
+</h2>
 
 <p align="center">
-  <sup>1</sup>Zhejiang University &emsp; <sup>2</sup>University of California, Los Angeles &emsp; <sup>3</sup>Westlake University &emsp;  <br>
+  <a href="https://greysahy.github.io/" target="_blank">Hengyu An</a><sup>1</sup> &nbsp; | &nbsp;
+  <a href="https://jzhang538.github.io/jinghuaizhang/" target="_blank">Jinghuai Zhang</a><sup>2</sup> &nbsp; | &nbsp;
+  <a href="https://tydusky.github.io/" target="_blank">Tianyu Du</a><sup>1</sup> &nbsp; | &nbsp;
+  Chunyi Zhou<sup>1</sup> &nbsp; | &nbsp;
+  Qingming Li<sup>1</sup> &nbsp; | &nbsp;
+  <a href="https://tlin-taolin.github.io/" target="_blank">Tao Lin</a><sup>3</sup> &nbsp; | &nbsp;
+  <a href="https://nesa.zju.edu.cn/index.html/" target="_blank">Shouling Ji</a><sup>1</sup>
 </p>
+
+<p align="center" style="font-size: 1rem;">
+  <sup>1</sup> Zhejiang University &nbsp;&nbsp;
+  <sup>2</sup> University of California, Los Angeles &nbsp;&nbsp;
+  <sup>3</sup> Westlake University
+</p>
+
+<br>
+<br>
+
 
 <!-- <p align="center">
 <a href="https://huggingface.co/sp12138sp/UCGM">:robot: Models</a> &ensp;
@@ -23,10 +30,8 @@
 <a href="https://paperswithcode.com/sota/image-generation-on-imagenet-256x256?p=unified-continuous-generative-models"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unified-continuous-generative-models/image-generation-on-imagenet-256x256" alt="PWC"></a> <a href="https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=unified-continuous-generative-models"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unified-continuous-generative-models/image-generation-on-imagenet-512x512" alt="PWC"></a>
 </p> -->
 
-Official PyTorch implementation of **IPIGuard**: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents
-
 <div align='center'>
-  <img src="assets/figure.png" width="90%">
+  <img src="assets/figure.png" width="75%">
   <p>
     <strong>Comparison of the traditional task execution paradigm (top) and our IPIGUARD (bottom)</strong>
   </p>
