@@ -37,6 +37,10 @@
   </p>
 </div>
 
+## 📢 News
+
+- 🎉 Our paper **"IPIGuard: A Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents"** has been **accepted to EMNLP 2025 Main Conference**!  
+
 
 ## 🔧 Installation
 
@@ -76,7 +80,7 @@ To run the script:
 bash eval.sh
 ```
 
-Variable        | Description
+Argument        | Description
 ----------------|--------------------------------------------------------------
 OPENAI_API_KEY  | Your OpenAI API key, required to access the model.
 OPENAI_BASE_URL | Base URL of the OpenAI API. Keep default unless using a proxy or private deployment.
