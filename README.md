@@ -109,11 +109,14 @@ More results and ablations are available in the [paper](link_to_paper).
 If you use this code or find our work helpful, please cite:
 
 ```bibtex
-@tbd{an2025ipiguard,
-  title     = {Paper Title},
-  author    = {Author1 and Author2 and Author3},
-  booktitle = {Proceedings of the ...},
-  year      = {2025}
+@misc{an2025ipiguardnoveltooldependency,
+      title={IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents}, 
+      author={Hengyu An and Jinghuai Zhang and Tianyu Du and Chunyi Zhou and Qingming Li and Tao Lin and Shouling Ji},
+      year={2025},
+      eprint={2508.15310},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2508.15310}, 
 }
 ```
 ---
