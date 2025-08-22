@@ -2,7 +2,7 @@
   <strong>IPIGuard</strong>: A Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents
 </h2>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://greysahy.github.io/" target="_blank">Hengyu An</a><sup>1</sup> &nbsp; | &nbsp;
   <a href="https://jzhang538.github.io/jinghuaizhang/" target="_blank">Jinghuai Zhang</a><sup>2</sup> &nbsp; | &nbsp;
   <a href="https://tydusky.github.io/" target="_blank">Tianyu Du</a><sup>1</sup> &nbsp; | &nbsp;
@@ -16,7 +16,7 @@
   <sup>1</sup> Zhejiang University &nbsp;&nbsp;
   <sup>2</sup> University of California, Los Angeles &nbsp;&nbsp;
   <sup>3</sup> Westlake University
-</p>
+</p> -->
 
 <br>
 <br>
@@ -76,6 +76,17 @@ To run the script:
 bash eval.sh
 ```
 
+Variable        | Description
+----------------|--------------------------------------------------------------
+OPENAI_API_KEY  | Your OpenAI API key, required to access the model.
+OPENAI_BASE_URL | Base URL of the OpenAI API. Keep default unless using a proxy or private deployment.
+agent_model     | The agent model used for evaluation (e.g., gpt-4o-mini-2024-07-18).
+attack_name     | The adversarial attack type to simulate (e.g., important_instructions).
+defense_name    | The defense strategy applied during evaluation (e.g., ipiguard).
+suite_name      | The task suite/domain being evaluated (e.g., travel, workspace, slack, banking).
+mode            | Running mode: benign → Standard tasks without attacks; attack → Adversarial tasks with injected attacks  
+output_dir      | Directory to store evaluation results.
+--uid / --iid   | User task ID and injection attack ID, used for resuming evaluation after interruption.
 ---
 
 ## 📊 Results
