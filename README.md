@@ -1,5 +1,5 @@
 <h2 align="center">
-  <strong>IPIGuard</strong>: A Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents
+  <strong>IPIGuard</strong>: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents
 </h2>
 
 <!-- <p align="center">
@@ -39,7 +39,7 @@
 
 ## 📢 News
 
-- 🎉 Our paper **"IPIGuard: A Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents"** has been **accepted to EMNLP 2025 Main Conference**!  
+- 🎉 Our paper **"IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents"** has been **accepted to EMNLP 2025 Main Conference**!  
 
 
 ## 🔧 Installation
